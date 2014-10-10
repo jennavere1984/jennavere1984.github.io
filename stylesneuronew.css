@@ -1,0 +1,112 @@
+@charset "UTF-8";
+#wrapper {
+  width: 960px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+h1 {
+  color: #FFFFFF;
+  font-family: 'Capriola', Arial, sans-serif;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: #FFFFFF;
+  border-width: thin;
+  border-style: dotted;
+  background-color: #BC2F36;
+}
+h2 {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #F6A03D; 
+  font-family: 'Quicksand', Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+}
+h3 {
+  text-align: left;
+  color: #6B6B6B;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom-color: #E1E1E1;
+  border-bottom-width: thin;
+  border-bottom-style: dotted;
+  padding-bottom: 10px;
+}
+.mainnav ul {
+  list-style-type: none;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.mainnav a {
+  width: 316px;
+  display: block;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #CC6600;
+  color: #EFF0F1;
+  text-decoration: none;
+  font-family: 'Capriola', Arial, sans-serif;
+  font-size: 14px;
+  position: static;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+  border-color: #FFFFFF;
+  border-width: 2px;
+  border-style: solid;
+}
+.mainnav a:visited {
+  color: #FFFFFF;
+}
+.mainnav a:hover, .mainnav a:active, .mainnav a:focus {
+  color: #FFFFFF;
+  background-color: #F6A03D;
+}
+#main {
+  background-color: #6B6B6B;
+  margin-top: 60px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.section {
+  width: 900px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+.more {
+  text-align: right;
+  border-top-color: #F6A03D;
+  border-top-width: thin;
+  border-top-style: dotted;
+  padding-top: 10px;
+}
+
+li:nth-child(3n+1){
+     font-weight:bold;
+     color:orange;
+}
+
+/*IMAGE*/
+img {
+  border: 15px solid 5px white;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  margin-bottom: 10px;
+}
