@@ -1,0 +1,211 @@
+/* General Styles */
+
+body {
+  background-color: #E4EEFF;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: medium;
+}
+
+#wrapper{
+  position: relative;
+  width:100%;
+  max-width: 1400px;
+  margin-top: -16px;
+}
+
+#slogan p {
+  color: #336699;
+  text-transform: uppercase;
+  border-top: 3px solid #8AAEDB;
+  border-bottom: 3px solid #8AAEDB;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: 1.5em;
+  margin: 0;
+  background: #C4DBF4;
+  text-shadow: 1px 1px 2px white, -1px -1px 2px white;
+}
+
+/*GOOGLE SEARCH*/
+
+#search {
+  position: absolute;
+  top: 113px;
+  right: 10px;
+  font-size: x-small;
+  font-weight: bold;
+  color: #333399;
+}
+
+/*HEADINGS*/
+
+h1 {
+  font-family: 'Candal', arial, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase; 
+  background-color: #003366;
+  color: #FFFFFF;
+  padding-top: .7em;
+  padding-bottom: .1em;
+  padding-left: .4em;
+  margin: 0px;
+}
+
+h2 {
+  color: #336699;
+  font-weight: normal;
+  padding-top: 15px;
+  font-family: 'Candal', arial, sans-serif;
+  font-size: 2em;
+  line-height: 1;
+}
+
+h3 {
+  background-color: #FFCC66;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h4 {
+  background-color: #FFCC66;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: medium;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*NAVIGATION*/
+
+nav ul {
+  width: 20%;
+  list-style-type: none;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  float: left;
+}
+
+nav a {
+  width: 100%;
+  color: #FFFFFF;
+  display: block;
+  font-size: small;
+  text-transform: uppercase;
+  background-color: #8AAEDB;
+  text-decoration: none;
+  position: static;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  border-bottom: 3px solid #C4DBF4;
+}
+
+nav a:hover, nav a:focus {
+  text-shadow: none;
+  color: #003366;
+  background-color: #C4DBF4;
+}
+
+nav a:visited {
+  color: #336699;
+}
+
+/*MAIN*/
+
+#main {
+  width: 75%;
+  margin-left: 5%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  float: left; 
+}
+
+#heroImage {
+  width: 50%; 
+  float: left;
+  margin-top: -15px;
+}
+
+#heroDetails {
+  width: 42%;
+  height: 300px;
+  margin-left: 23px;
+  margin-bottom: 110px;
+  float: left;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border: 3px solid #FFCC66;
+}
+
+#bio {
+  background-color: #FFFFFF;
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  border: 3px solid #FFCC66;
+}
+
+#bio ul {
+  margin-left: 10px;
+}
+
+#button {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#button a {
+  background-color: #003366;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 98px;
+  padding-right: 98px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 3px solid #8AAEDB;
+  text-decoration: none;
+}
+
+#button a:hover {
+  color: #003366;
+  background-color: #C4DBF4;
+}
+
+/*FOOTER*/
+
+footer {
+  margin-top: 10px;
+  font-size: small;
+  text-transform: uppercase;
+  clear: left;
+  background-color: #C4DBF4;
+  color: #336699;
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid #8AAEDB;
+  text-shadow: 1px 1px 2px white, -1px -1px 2px white;
+}
+
+/*IMAGE*/
+
+img[src$=".jpg"] {
+  border: solid 3px #8AAEDB;
+  border-radius: 4px;
+}
