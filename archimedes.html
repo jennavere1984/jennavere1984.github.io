@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Archimedes' Quadrature of Parabolic Segments</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Jennifer Wolfson">
+<meta name="description" content="An explanation and interactive diagram of Archimedes' treatise 
+The Quadrature of the Parabola.">
+
+<link href="archimedesreset.css" rel="stylesheet" type="text/css"/>  
+<link href="stylesarchimedes.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic|Volkhov:400,400italic' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <header>
+      <h1>Archimedes' Quadrature of Parabolic Segments</h1>
+      <nav class="mainnav">
+        <ul>
+          <li><a href="#explanation">Archimedes' Quadrature of Parabolic Segments</a></li>
+          <li><a href="#diagram">A Diagram Illustrating How This Principle is Applied</a></li>
+          </ul>
+        </nav>
+    </header>
+      
+      <div id="main">
+      <section id="explanation">
+      <h2>Archimedes' Quadrature of Parabolic Segments</h2>
+      <p>Archimedes was an ancient Greek mathematician, scientist and inventor. He lived from
+      circa 287 BC – 212 BC but is still considered one of the greatest mathematicians of all time. 
+      <img src="Archimedes.jpg" alt="Portrait of Archimedes" />     
+      <p>The Quadrature of the Parabola was one of his proofs. It is a treatise on geometry,
+      stating that the the area of a parabolic segment 
+      (a region bound by a parabola and a line) is 4/3 that of a certain inscribed triangle.</p>
+      <p>One of the reasons this treatise so interesting is that 
+      Archimedes made this discovery more than 2,000 years before Isaac Newton and Gottfried Leibniz 
+      developed differential calculus. Furthermore, finding the area under a curve solved the problem
+      of finding volumes of cylinders and spheres, which was essential for fair trade.</p>
+      <p>Archimedes used the Method of Exhaustion, which finds the area of a curved shape 
+      by inscribing successively smaller triangles until the shape is filled.</p>
+    
+      </section>
+
+      <section id="diagram">
+      <!-- Slideshow HTML -->
+	<h2>A Diagram Illustrating Archimedes' Quadrature of Parabolic Segments</h2>
+    <div id="slideshowContainer">
+
+      <div class="slideshow">
+        <img src="parabola1st.jpg" width="600" height="300" alt="Image of the first slide"/>
+      <img src="parabola2nd.jpg" width="600" height="300" alt="Image of the second slide" />
+	<img src="parabola3rd.jpg" width="600" height="300" alt="Image of the third slide" />
+    <img src="parabola4th.jpg" width="600" height="300" alt="Image of the fourth slide" />
+	      </div>
+      
+      <ul id="nav">
+         <li id="prev"><a href="#">Previous</a></li>
+         <li id="next"><a href="#">Next</a></li>
+         <li id="pause"><a href="#">Pause</a></li>
+         <li id="play"><a href="#">Play</a></li>
+     </ul>
+</div>
+ <!-- Slideshow HTML -->
+ 
+<p class="more">The Definition of this Principle <a href="#explanation">above</a></p>
+
+	</section>
+      
+      </div>
+      
+      <footer>                 
+        <div class="copyright">
+				<p>&copy; 2014. All rights reserved. Site maintained by jenwolfson1@gmail.com</p>
+				<p>Painting of Archimedes: "Domenico-Fetti Archimedes 1620" by Domenico Fetti - http://archimedes2.mpiwg-berlin.mpg.de/archimedes_templates/popup.htm. Licensed under Public domain via Wikimedia Commons - 
+				http://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg#mediaviewer/File:Domenico-Fetti_Archimedes_1620.jpg</p>
+				</div>
+        </footer>
+        
+       </div>
+       
+        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() { 
+	
+	$('.slideshow').cycle({
+		fx: 'fade',
+	timeout: 4000,
+	pause: 1,
+	prev: '#prev',
+	next: '#next'
+	});	
+	$('#pause').click(function() {
+	$('.slideshow').cycle('pause');
+	return false;
+	});
+	$('#play').click(function() {
+	$('.slideshow').cycle('resume');
+	return false;
+	});
+	}); 
+	</script>
+        </body>
+        </html>

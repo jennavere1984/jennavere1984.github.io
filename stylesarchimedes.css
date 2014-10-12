@@ -1,0 +1,268 @@
+/* GENERAL STYLES */
+
+@charset "UTF-8";
+
+#wrapper {
+  width: 960px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+body {
+  font-family: 'Volkhov'; serif;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  background-color: #3b3b3b;
+  line-height: 1.4;
+  margin: 0;
+  padding; 0;
+  min-width: 1172px;
+}
+
+#main {
+  background-color: #3b3b3b;
+  margin-top: 40px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+  }
+  
+a: visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a: hover {
+  text-decoration: none;
+  color: aqua;
+  background-color: navy;
+}
+
+/*HEADERS*/
+
+h1 {
+  color: #FFFFFF;
+  font-family: font-family: 'Droid Serif', serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: #FFFFFF;
+  border-width: thin;
+  border-style: groove;
+  background-color: #3e8ac0;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  text-shadow: 1px 1px 2px white, -1px -1px 2px white;
+  font-family: 'Volkhov', serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+/* NAVIGATION */
+
+.mainnav ul {
+  list-style-type: none;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.mainnav a {
+  width: 475px;
+  display: block;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #b9132a;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  margin-left: 0px;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.mainnav a: visited {
+  color: #ffffff;
+}
+
+.mainnav a:hover {
+  color: aqua;
+  background-color: navy;
+}
+
+/*SECTIONS*/
+
+.section {
+  width: 900px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  padding: 10px;
+}
+
+#explanation {
+  background:#e7f3ec;
+}
+
+#diagram {
+  background:#b1dde6;
+  border-top-color: #b9132a;
+  border-top-width: thin;
+  border-top-style: dotted;
+}
+
+.more {
+  text-align: right;
+  border-top-color: #b9132a;
+  border-top-width: thin;
+  border-top-style: dotted;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+/*FOOTER*/
+
+.copyright {
+	font-size: 10px;
+	padding-top: 30px;
+	letter-spacing: 0.1em;
+	color: white;
+	text-align: center;
+}
+
+/*IMAGE*/
+
+img[src$=".jpg"] {
+  border: solid 2px black;
+}
+
+
+/*SLIDESHOW*/
+
+#slideshowContainer {
+    width: 632px;
+    margin: 10px auto 10px auto;
+    position:relative;
+}
+.slideshow {
+    height: 332px;
+}
+.slideshow img {
+    padding: 15px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+#nav {
+    list-style-type:none;
+    z-index:150;
+}
+#nav li a {
+    display:block;
+    width:58px;
+    height:50px;
+    text-indent:-9999px;
+    outline:none;
+}
+
+/* here is a link to the previous arrow button used below: http://findicons.com/icon/169295/agt_back?id=365227 and to the 
+GNU/GPL licence: http://www.gnu.org/copyleft/gpl.html */
+#prev a {
+    background:url(agt_back.png);
+    background-repeat: no-repeat;
+    width:58px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    left:-70px;
+}
+
+/* here is a link to the next arrow button used below: http://findicons.com/icon/169725/agt_forward?id=356539 and to the 
+GNU/GPL licence: http://www.gnu.org/copyleft/gpl.html */
+#next a {
+    background:url(agt_forward.png);
+    background-repeat: no-repeat;
+    width:58px;
+    height:50px;
+    position:absolute;
+    top:220px;
+    left:-70px;
+}
+
+/* here is a link to the next arrow button used below: http://findicons.com/icon/174914/arrow_right and to the 
+CC Creative Commons Attribution licence: https://creativecommons.org/licenses/by-sa/3.0/us/legalcode */
+#next a:hover {
+    background:url(arrow_right.png);
+    background-repeat: no-repeat;
+}
+
+/* here is a link to the previous arrow button used below: http://findicons.com/icon/174885/arrow_left and to the 
+CC Creative Commons Attribution licence: https://creativecommons.org/licenses/by-sa/3.0/us/legalcode */
+#prev a:hover {
+    background:url(arrow_left.png);
+    background-repeat: no-repeat;
+}
+
+/* here is a link to the pause button used below: http://findicons.com/icon/251554/button_pause_blue?id=252403 */
+#pause a {
+    background:url(pause_blue.png);
+    background-repeat: no-repeat;
+    width:58px;
+    height:50px;
+    position:absolute;
+    top:100px;
+    left:-70px;
+}
+
+/* here is a link to the play button used below: http://findicons.com/icon/251336/button_play_blue?id=251901 */
+#play a {
+    background:url(play.png);
+    background-repeat: no-repeat;
+    width:58px;
+    height:50px;
+    position:absolute;
+   	top:150px;
+    left:-70px;
+}
+#pause a:hover {
+    background:url(pause.png);
+    background-repeat: no-repeat;
+}
+#play a:hover {
+    background:url(play_blue.png);
+    background-repeat: no-repeat;
+}
+
+
+
