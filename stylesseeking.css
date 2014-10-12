@@ -1,0 +1,167 @@
+@charset "UTF-8"; 
+
+body {
+  font-family: 'Droid Serif'; serif;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  background-color: #fff0ff; 
+}
+
+#wrapper {
+  width: 95%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+#tagline p {
+color: white;
+text-align: center;
+font-style:italic;
+font-family:Georgia, Times, serif;
+border-top:3px thin dashed #FFFFFF;
+border-bottom:3px thin dashed #FFFFFF;
+padding-top:.2em;
+padding-bottom:.2em;
+padding-left:.8em;
+margin:0;
+background:#2E0854;
+}
+
+a:link {
+  color: #99182C;
+  text-decoration: none;
+  }
+  
+a:visited {
+  text-decoration: none;
+  color: #99182C;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #FDF8FF;
+}
+
+aside li {
+position: relative;
+padding-left: 16px;
+margin-bottom: 5px;
+}
+
+aside li:before {
+color: #000000;
+content: '★';
+font-size: small;
+position: absolute;
+left: 0;
+top: 1px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Playfair Display SC'; serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: #FFFFFF;
+  border-width: thin;
+  border-style: groove;
+  background-color: #2E0854;
+}
+
+h2 {
+  text-align: left;
+  color: #2E0854;
+  background-color: #fff0ff;
+  font-family: 'Playfair Display SC'; serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  color: #2E0854;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 0 0.3em 0;  
+}
+
+#main {
+  background-color: #fff0ff;
+  margin-top: 40px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+}  
+
+  
+ol.answers {
+margin-left: 15px;
+color: #2E0854;
+list-style: upper-alpha;
+}
+
+  
+answers li { 
+list-style: upper-alpha; 
+} 
+
+li { 
+margin-left: 0.5em; 
+cursor: pointer; 
+}
+
+/* Toggled State */
+input[type="radio"]:checked {
+   color: red;
+}
+
+p {
+font-size:small;
+color: #000000;
+}
+
+
+aside {
+  display: block;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  background: white;
+  font-style: italic;
+  color: black;
+}
+
+aside p {
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin: 0 0 0.5em 0;
+  font-style: normal;
+  color: black;
+}
+
+/* Fonts 
+font-family: 'IM Fell French Canon', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+@font-face {
+  font-family: 'EntypoRegular';
+  src: url('font/Entypo-webfont.eot');
+  src: url('font/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/Entypo-webfont.woff') format('woff'),
+       url('font/Entypo-webfont.ttf') format('truetype'),
+       url('font/Entypo-webfont.svg#EntypoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
