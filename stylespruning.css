@@ -1,0 +1,202 @@
+/* GENERAL STYLES */
+
+@charset "UTF-8";
+
+#wrapper {
+  width: 960px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+body {
+  font-family: 'Average'; serif;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  background-color: #121515;
+  line-height: 1.4;
+  margin: 0;
+  padding; 0;
+  min-width: 1172px;
+}
+
+#main {
+  background-color: #121515;
+  margin-top: 40px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+  }
+  
+a: visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a: hover {
+  text-decoration: none;
+  color: aqua;
+  background-color: navy;
+}
+
+/*HEADERS*/
+
+h1 {
+  color: #FFFFFF;
+  font-family: font-family: 'Merriweather', serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: #FFFFFF;
+  border-width: thin;
+  border-style: solid;
+  background-color: #660000;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  font-family: 'Average', serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+/* NAVIGATION */
+
+.mainnav ul {
+  list-style-type: none;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.mainnav a {
+  width: 475px;
+  display: block;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #660000;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Droid Serif', sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  margin-left: 0px;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.mainnav a: visited {
+  color: #ffffff;
+}
+
+.mainnav a:hover {
+  color: #F08080;
+  background-color: #660000;
+}
+
+/*SECTIONS*/
+
+.section {
+  width: 900px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  padding: 10px;
+}
+
+#explanation {
+  background:#C6E9F5;
+}
+
+#examples {
+  background:#fbeaf2;
+  border-top-color: #523B23;
+  border-top-width: thin;
+  border-top-style: solid;
+}
+
+.top {
+  text-align: right;
+  border-top-color: #b9132a;
+  border-top-width: thin;
+  border-top-style: dotted;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+/*FOOTER*/
+.copyright {
+	font-size:12px;
+	letter-spacing: 0.1em;
+	color: white;
+	text-align: center;
+}
+
+a[href^="http://"] {
+  color: white;
+}
+
+a[href^="//en"] {
+  color: white;
+}
+
+a[href^="//commons"] {
+  color: white;
+}
+
+/*IMAGE*/
+img[src$=".jpg"] {
+  border: solid 2px black;
+    margin:0px auto;
+}
+
+img[src^="peachtree"] {
+  border: solid 2px black;
+    margin-left: 200px;
+}
+
+/*SLIDESHOW*/
+
+/* Stops the slideshow from flashing on load */
+    #slides {
+      display: none
+    }
+
+#container {
+    width: 632px;
+    margin: 10px auto 10px auto;
+    position:relative;
+}
+
+/* Show active item in the pagination */
+    .slidesjs-pagination .active {
+      color:#660000;
+    }
+
