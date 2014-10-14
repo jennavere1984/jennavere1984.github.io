@@ -213,7 +213,9 @@ li:nth-child(3n+1){
      color: #809947;
 }
 
-input[type=submit] {box-shadow: 2px 2px 5px black, -2px -2px 5px black;}
+input[type=submit] {
+-webkit-box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+ box-shadow: 2px 2px 5px black, -2px -2px 5px black;}
 
 
 /* FOOTER */
