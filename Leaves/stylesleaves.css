@@ -39,14 +39,16 @@ h1#top {
 }
 
 h1#green-leaf-info {
-	margin: 100px;
+	margin: 50px;
+	margin-left: 350px;
     color: #016806;
     display: none;
     z-index: 1;
 }
 
 h2#orange-leaf-info {
-	margin: 200px;
+	margin: 50px;
+	margin-left: 350px;
     color: #D5863A;
     display: none;
     z-index: 1;
