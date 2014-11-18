@@ -32,7 +32,8 @@
     But during winter, there is not enough light or water for photosynthesis to take place. Trees produce less and less chlorophyll, until eventually they are not producing any.
     When this happens, carotenoids, which are already present in leaves, begin to show in yellows and orange colors. Red and purple leaf colors are produced from anthocyanins. 
     Anthrocyanins result from a chemical reaction that allows trees to recover nutrients in the leaves before the leaves fall off the tree.</p> 
-    <p>Interact with the leaves with your mouse!</p>
+    
+    <p>Interact with the leaves with your mouse! Hover or click!</p>
     
     <h1 id="green-leaf-info">I am a green leaf. I am filled with green chlorophyll.</h1>
     <div><img src="leaf.jpg" width="266" height="314" alt="green leaf" id="green-leaf"/></div>
@@ -46,45 +47,45 @@
 </div> 
 <script>
 var greenLeaf = document.getElementById('green-leaf');
-greenLeaf.addEventListener('mouseover', greenLeafFun, false);
-greenLeaf.addEventListener('mouseout', greenLeafNormal, false);
+greenLeaf.addEventListener('mouseover', greenLeafAction, false);
+greenLeaf.addEventListener('mouseout', greenLeafRegular, false);
 
 var orangeLeaf = document.getElementById('orange-leaf');
-orangeLeaf.addEventListener('mousedown', orangeLeafFun, false);
-orangeLeaf.addEventListener('mouseup', orangeLeafNormal, false);
+orangeLeaf.addEventListener('mousedown', orangeLeafAction, false);
+orangeLeaf.addEventListener('mouseup', orangeLeafRegular, false);
 
 var redLeaf = document.getElementById('red-leaf');
-redLeaf.addEventListener('click', redLeafFun, false);
-redLeaf.addEventListener('dblclick', redLeafNormal, false);
+redLeaf.addEventListener('click', redLeafAction, false);
+redLeaf.addEventListener('dblclick', redLeafRegular, false);
 
-function greenLeafFun() {
+function greenLeafAction() {
   var info = document.getElementById('green-leaf-info');
   document.body.style.background = '#016806';
   info.style.display = 'block';
 }
-function greenLeafNormal() {
+function greenLeafRegular() {
   var info = document.getElementById('green-leaf-info');
   document.body.style.background = '#FFFFFF';
   info.style.display = 'none';
 }
 
-function orangeLeafFun() {
+function orangeLeafAction() {
   var info = document.getElementById('orange-leaf-info');
   document.body.style.background = '#D5863A';
   info.style.display = 'block';
 }
-function orangeLeafNormal() {
+function orangeLeafRegular() {
   var info = document.getElementById('orange-leaf-info');
   document.body.style.background = '#FFFFFF';
   info.style.display = 'none';
 }
 
-function redLeafFun() {
+function redLeafAction() {
   var info = document.getElementById('red-leaf-info');
   document.body.style.background = '#EA5026';
   info.style.display = 'block';
 }
-function redLeafNormal() {
+function redLeafRegular() {
   var info = document.getElementById('red-leaf-info');
   document.body.style.background = '#FFFFFF';
   info.style.display = 'none';
