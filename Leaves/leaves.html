@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Why do Autumn Leaves Change Color?</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Jennifer Wolfson">
+<meta name="description" content="A JavaScript project describing why leaves change color. All leaves created in Adobe Photoshop.">
+
+<link href="stylesleaves.css" rel="stylesheet" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic' rel='stylesheet' type='text/css'/>
+    
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <header id="top">
+      <h1 id="top">Why Do Autumn Leaves Change Color?</h1>
+    </header>
+    
+    <div id="main">
+    <p>Every fall we enjoy the colors of the autumn leaves. As the days get shorter, trees are triggered into getting ready for winter. 
+    Trees use sunlight to turn water and carbon dioxide into oxygen and glucose, a process called photosynthesis. Glucose is a type of sugar that plants use as food for energy to grow.
+    But during winter, there is not enough light or water for photosynthesis to take place. Trees produce less and less chlorophyll, until eventually they are not producing any.
+    When this happens, carotenoids, which are already present in leaves, begin to show in yellows and orange colors. Red and purple leaf colors are produced from anthocyanins. 
+    Anthrocyanins result from a chemical reaction that allows trees to recover nutrients in the leaves before the leaves fall off the tree.</p> 
+    <p>Interact with the leaves with your mouse!</p>
+    
+    <h1 id="green-leaf-info">I am a green leaf. I am filled with green chlorophyll.</h1>
+    <div><img src="leaf.jpg" width="266" height="314" alt="green leaf" id="green-leaf"/></div>
+    
+      <h2 id="orange-leaf-info">I am an orange leaf. My color comes from carotenoids.</h2>
+      <div><img src="orangeleaf.jpg" alt="orange leaf" id="orange-leaf"/></div>
+      
+      <h3 id="red-leaf-info">I am a red leaf. I have developed red anthocyanin pigments.</h3>
+      <div><img src="redleaf.jpg" alt="red leaf" id="red-leaf"/></div>
+      </div>
+</div> 
+<script>
+var greenLeaf = document.getElementById('green-leaf');
+greenLeaf.addEventListener('mouseover', greenLeafFun, false);
+greenLeaf.addEventListener('mouseout', greenLeafNormal, false);
+
+var orangeLeaf = document.getElementById('orange-leaf');
+orangeLeaf.addEventListener('mousedown', orangeLeafFun, false);
+orangeLeaf.addEventListener('mouseup', orangeLeafNormal, false);
+
+var redLeaf = document.getElementById('red-leaf');
+redLeaf.addEventListener('click', redLeafFun, false);
+redLeaf.addEventListener('dblclick', redLeafNormal, false);
+
+function greenLeafFun() {
+  var info = document.getElementById('green-leaf-info');
+  document.body.style.background = '#016806';
+  info.style.display = 'block';
+}
+function greenLeafNormal() {
+  var info = document.getElementById('green-leaf-info');
+  document.body.style.background = '#FFFFFF';
+  info.style.display = 'none';
+}
+
+function orangeLeafFun() {
+  var info = document.getElementById('orange-leaf-info');
+  document.body.style.background = '#D5863A';
+  info.style.display = 'block';
+}
+function orangeLeafNormal() {
+  var info = document.getElementById('orange-leaf-info');
+  document.body.style.background = '#FFFFFF';
+  info.style.display = 'none';
+}
+
+function redLeafFun() {
+  var info = document.getElementById('red-leaf-info');
+  document.body.style.background = '#EA5026';
+  info.style.display = 'block';
+}
+function redLeafNormal() {
+  var info = document.getElementById('red-leaf-info');
+  document.body.style.background = '#FFFFFF';
+  info.style.display = 'none';
+}
+
+</script>   
+</body>
+</html>

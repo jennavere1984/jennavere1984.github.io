@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Droid Serif', serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #000000;
+	font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+#wrapper {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+h1#top {
+  color: #FFFFFF;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  border-color: #FFFFFF;
+  border-width: thin;
+  border-style: dotted;
+  background-color: #016806;
+}
+
+#main {
+  background-color: #FFFFFF;
+  margin-top: 60px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+
+h1#green-leaf-info {
+	margin: 100px;
+    color: #016806;
+    display: none;
+    z-index: 1;
+}
+
+h2#orange-leaf-info {
+	margin: 200px;
+    color: #D5863A;
+    display: none;
+    z-index: 1;
+}
+
+h3#red-leaf-info {
+	margin: 50px;
+    margin-left: 350px;
+    color: #EA5026;
+    display: none;
+    z-index: 1;
+}
+
