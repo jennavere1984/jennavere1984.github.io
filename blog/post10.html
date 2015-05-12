@@ -91,13 +91,13 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <p>I decided to test each of these UX tools on two of my personal web projects that I felt needed the most work: my website for Archimedes' Quadrature of Parabolic Segments and my Sensation Seeking Questionnaire website. The end result was to make the websites more accessible and get a feel for these tools.</p>
-                    <p><strong>WAVE: WEB ACCESSIBILITY EVALUATION TOOL</strong></p>
+                    <p><strong><a href="http://wave.webaim.org">WAVE: WEB ACCESSIBILITY EVALUATION TOOL</a></strong></p>
 					<p>This is one of my most useful recent discoveries! It’s free and all you have to do is paste in the URL and then it gives you the original web page with embedded icons that reveal issues in the accessibility of that page.  Let’s take a look:</p>
 					<img src="/blog/ArchimedesWAVEscreenshot.png" alt="a screenshot of the WAVE UX tool used on my Archimedes website" style="width:800px;height:396px">
 					<p>Luckily, only 1 major error shows up. The red speech bubble at the top of the website informs me that the language of the document is not identified. According to the W3C recommendation you should declare the primary language for each Web page with the lang attribute inside the <html> tag. So, I updated the html tag to include lang="en". 
 					<p>There are several alerts referring to the fact that the Alternative text contains insufficient information. I tend to use alt tags as placeholders to remind myself what the picture should look like, in case it doesn’t load properly. But sometimes what is informative as a note to myself does not convey enough information to others. So here I changed the alt tag from “image of the first slide” to the much more informative title of this slide: “To create a parabolic segment, we draw a line through a parabola, such that it intersects it in two points.” And I made these corrections for each of the other three slides.</p>
 					<img src="/blog/ArchimedesWAVEscreenshot2.png" alt="the second screenshot of the WAVE UX tool used on my Archimedes website" style="width:800px;height:327px">
-					<p><strong>The free readability tool at http://www.online-utility.org</strong> evaluates text based on different reading scales and suggests which sentences are too complex and should be rewritten. I pasted the following text in from my Archimedes site (removing the paragraph and image tags): 
+					<p><strong><a href="http://www.online-utility.org/english/readability_test_and_improve.jsp">The free readability tool at http://www.online-utility.org</a></strong> evaluates text based on different reading scales and suggests which sentences are too complex and should be rewritten. I pasted the following text in from my Archimedes site (removing the paragraph and image tags): 
 					<p>“Archimedes was an ancient Greek mathematician, scientist and inventor. He lived from circa 287 BC – 212 BC but is still considered one of the greatest mathematicians of all time.</p>    
     				<p>The Quadrature of the Parabola was one of his proofs. It is a treatise on geometry, stating that the area of a parabolic segment (a region bound by a parabola and a line) is 4/3 that of a certain inscribed triangle.</p>
       				<p>One of the reasons this treatise is so interesting is that Archimedes made this discovery more than 2,000 years before Isaac Newton and Gottfried Leibniz developed differential calculus. Furthermore, finding the area under a curve solved the problem of finding volumes of cylinders and spheres, which was essential for fair trade.</p>
@@ -110,7 +110,7 @@
 					<li>It states that the area of a parabolic segment (a region bound by a parabola and a line) is 4/3 that of a certain inscribed triangle.</li>
 					</ol>
 					</p> 
-					<p>My final UX tool is <strong>Color Contrast by AccessColor.</strong>
+					<p>My final UX tool is <strong><a href="http://www.accesskeys.org/tools/color-contrast.html">Color Contrast by AccessColor.</a></strong>
 					<p>AccessColor examines the color contrast and color brightness between the foreground and background of all elements in the Document Object Model to make sure that the contrast is high enough for people with visual impairments (e.g. when viewed by someone with low vision or colour blindness, or when viewed on a black and white screen.) Just as a sidenote, AccessColor had trouble reading the URL for my Archimedes website for some reason that wasn't clear, so I decided to use it on my Sensation Seeking Quiz website.</p>
 					<img src="/blog/SensationSeekingscreenshot.png" alt="a screenshot of my Sensation Seeking Questionnaire website" style="width:800px;height:401px">
 					<p>The results can be seen below:</p> 
